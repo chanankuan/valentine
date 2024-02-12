@@ -33,13 +33,19 @@ const App: FC = () => {
     <div className='container'>
       {isYesPressed ? (
         <>
-          <img src='https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif' />
+          <img
+            src='https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif'
+            alt='Bears kissing'
+          />
           <h2>Meow</h2>
         </>
       ) : (
         <>
           <div>
-            <img src='https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif' />
+            <img
+              src='https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif'
+              alt='Bear with roses'
+            />
             <h1 className='title'>Will you be my valentine, babe?</h1>
           </div>
           <div className='container-button'>
